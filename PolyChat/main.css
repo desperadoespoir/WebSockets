@@ -1,0 +1,181 @@
+#envoyer,.like {
+    color: black; 
+    background-color: white;
+    border: 2px solid #03224C;
+}
+
+#envoyer:hover {
+    background-color: #03224C;
+    color: white;
+}
+
+.like:hover {
+    background-color:#03224C#03224C;
+    color: white;
+}
+
+
+.boiteMsg{
+	    
+    border: 1px solid #000000; 
+    list-style-type:none;
+    border-radius: 8px;
+    word-break: keep-all;
+
+}
+.pointer {cursor: pointer !important;}
+
+.btn-group button {
+    border: 0px solid ; 
+    color: #156E83; 
+    background-color: inherit;
+  
+    padding: 10px 24px;
+    cursor: pointer; 
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group button:hover {
+    background-color: #869097;
+}
+
+ul#listDesGroups li:nth-child(odd) {
+    background-color: rgb(133, 189, 133) !important;
+}
+
+ul#listDesGroups li:nth-child(even) {
+    background-color: rgb(182, 216, 224) !important;
+}
+
+
+
+.styleUtilisateur{
+	color:gray; 
+	font-size: 12px;
+	font-style:italic;
+}
+
+#listeDesMessages{
+    width: 66.6%;
+   	height: 500px;
+   overflow: scroll;
+}
+
+#listDesGroups{
+	    width: 33%;
+   	height: 500px;
+   overflow: scroll;
+}
+
+
+#envoyer, .like {
+    background-color: #4CAF50;
+    border: none;
+    
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.premierBar{
+    background-color: lightgray !important;
+    height: 100px !important; 
+    border-color: lightgray !important;
+}
+
+.LOGO{
+    color:#014659 !important;
+}
+
+.secondBar{
+    margin-top: -21px !important;
+    padding-top: 10px !important; 
+    background-color: rgb(211, 211, 211) !important;
+    color:white !important;
+    border-color: lightgray !important;
+    
+
+}
+
+#msgBox{
+    width:60%; float:left; 
+    margin-top: 10px;
+}
+
+.fa-thumbs-o-up{
+font-size: 18px; 
+float:left;
+}
+
+.lii{
+    margin-right: 30px !important;
+}
+
+.navvv{
+padding-top: 30px !important; font-size: 20px !important; color:red !important;
+}
+
+#user{
+    color:#014659 !important;
+    font-style: italic;
+    text-decoration : underline;
+}
+
+.GroupsForm{
+        
+    word-break: keep-all;
+    border: 1px solid #000000; 
+
+    list-style-type:none;
+    border-radius: 3px;
+
+    color:#367DFE;
+    border-color:#367DFE;
+    background-color: white;
+    margin-left: 60px;
+}
+
+#config{
+    margin-right:30px !important;
+}
+
+#current_group_name{
+    margin-top: 20px;
+}
+
+.colonne1{
+    border-left: 2px solid #eee;
+}
+
+#ulul{
+    font-size: 20px !important; 
+    padding-top: 30px !important; 
+    float:right;
+}
+
+#envoyer , #GrpDispo{
+    float:left;
+}
+
+.glyphicon-minus{
+    
+}
+/***********************/

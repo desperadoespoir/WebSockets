@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>	
+		<title>TD2-équipe13</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body >
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header  ">
+    <a class="navbar-brand" href="index.html"><h1>Poly<i class="fa fa-comments"></i>Chat</h1></a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right navvv" >
+		<li><a href="#"><span class="glyphicon glyphicon-user" id="iconUser" ><p id="user"></p></span></a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-bell lii" ></span></a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-globe lii"></span></a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-cog lii" id="config"></span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<nav class="navbar navbar-default secondBar">
+<div class="container-fluid">
+	<div class="tab-content">		
+			<div class="row" >
+				<div class="col-lg-8">
+					<form>
+						<div class="form-group" >
+							<h4>Groupe actif: </h4>
+							<h2><table id="current_group_name"></table></h2>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-lg-4 colonne1">
+					<table>
+						<div class="form-group " >
+							<h5>Liste des groupes</h5>
+							<h2 id="GrpDispo">Groupe diponible</h2>
+							<ul id="ulul">
+								<a href="#" id="createChannel"><span class="glyphicon glyphicon-plus"  style="margin-right: 40px !important; "></span></a>
+								<a href="#"><span class="glyphicon glyphicon-cog"  style="margin-right: 30px !important;"></span></a>
+							</ul>
+						</div>
+					</table>
+				</div>
+			</div>
+	</div>
+</div>
+</nav>
+<div id="listDesMessages" class="col-lg-8"></div>
+<ul id="listDesGroups" class="col-lg-4 ligne btn-group  list-group"></ul>	
+<div class="w3-container w3-card-4 w3-light-grey">
+	<button class="like"> <i class="col-lg- fa fa-thumbs-o-up" ></i></button> 
+	<label for="boiteDeMsg" ></label>
+	<input class="col-lg- w3-input w3-border w3-round-large" type="text" placeholder="Votre message" id="msgBox" >
+	<button class="col-lg-" id="envoyer">Envoyer</button>
+</div>
+		
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="message.js" > </script>
+<script src="channel.js" > </script>
+
+<script src="messagesObserver.js" > </script>
+<script src="channelsObserver.js" > </script>
+
+<script src="main.js" > </script>
+
+
+</body>
+</html>
+
